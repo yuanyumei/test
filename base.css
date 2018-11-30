@@ -1,0 +1,237 @@
+/*导航*/
+body{
+    font-size: 14px;
+}
+/*百度logo*/
+.logo{
+    width: 270px;
+    height: 129px;
+    display: block;
+    margin:0 auto;
+}
+/*新闻导航*/
+.news{
+    text-align: center;
+    margin: 36px auto 30px;
+}
+.news a{
+    text-decoration: underline;
+    color: #2b11d6;
+}
+/*搜索框*/
+.search{
+    width: 640px;
+    height: 40px;
+    margin: 0 auto;
+}
+.search_left{
+    width: 536px;
+    height: 40px;
+    float: left;
+    background-color: aqua;
+    position: relative;
+}
+.search_left input{
+    width: 536px;
+    height: 38px;
+    border: #b0b0b0 1px solid;
+}
+.search_left img{
+    position: absolute;
+    top:4px;
+    right:11px;
+}
+.search_right{
+    width: 104px;
+    height: 40px;
+    background-color:#407dfd;
+    float: left;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+/*热点上面*/
+.hot_spot{
+    width: 893px;
+    /*height: 406px;*/
+    margin: 98px auto 0;
+    border: #e6e6e6 1px solid;
+}
+.hot_spot_top{
+    width: 893px;
+    height: 40px;
+    border-bottom: #e6e6e6 1px solid;
+}
+.hot_spot_bottom{
+    width: 893px;
+    height: 515px;
+}
+.hot_spot_top_nav1{
+    width: 79px;
+    height: 14px;
+    float: left;
+    position: relative;
+    top: -1px;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 14px 25px 14px 22px;
+    text-align: right;
+}
+.hot_spot_top_nav1 img{
+    position: relative;
+    top: -17px;
+    left: -58px;
+}
+.hot_spot_top_nav2{
+    width: 80px;
+    height: 42px;
+    float: left;
+    position: relative;
+    top: -1px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 42px;
+    background-color: #919499;
+    color: white;
+}
+.hot_spot_top_nav3{
+    width: 80px;
+    height: 42px;
+    float: left;
+    position: relative;
+    top: -1px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 42px;
+}
+.hot_spot_top_nav4{
+    /*width: 80px;*/
+    /*height: 42px;*/
+    float: right;
+    position: relative;
+    top: -1px;
+    padding: 4px 24px 3px 24px;
+}
+/*热点下面*/
+
+/*热点左边*/
+.hot_spot_left{
+    width: 539px;
+    height: 315px;
+    padding: 25px 25px 0;
+    color: #999999;
+    float: left;
+}
+/*热点推荐*/
+.recommend{
+    width: 539px;
+    height: 15px;
+    text-align: center;
+
+    font-size: 14px;
+}
+.recommend .hr_left{
+    float: left;
+}
+.recommend .hr_right{
+    float: right;
+}
+/*横线设置*/
+.recommend .hr_right,.recommend .hr_left{
+    width: 30%;
+    height: 1px;
+    position: relative;
+    top: 2px;
+    border: none;
+    border-top: #dedede 1px solid;
+}
+.hot_spot_left ul{
+    width: 539px;
+    height: 289px;
+}
+.hot_spot_left ul .re{
+    width: 539px;
+    height: 199px;
+    border-bottom: #eeeeee 1px solid;
+    padding-top: 23px;
+}
+.hot_spot_left ul .re p{
+    font:17px \5FAE;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 14px;
+}
+.hot_spot_left ul .recommend_one .tup{
+    height: 119px;
+}
+.hot_spot_left ul .recommend_two{
+    height: 69px;
+}
+.hot_spot_left ul .recommend_two p{
+    padding-bottom: 5px;
+}
+.hot_spot_left ul .recommend_one .tup .tu_pi li{
+    width: 179px;
+    height: 119px;
+    float: left;
+}
+.hot_spot_left ul .recommend_one .tup .tu_pi li img{
+    width: 179px;
+    height: 119px;
+}
+.hot_spot_left ul .recommend_one .tup .tu_pi .two{
+    width: 179px;
+    height: 119px;
+    padding: 0 1px 0;
+}
+.hot_spot_left ul .re .time{
+    height: 44px;
+    line-height: 44px;
+}
+.hot_spot_left ul .recommend_three{
+    height: 119px;
+    padding: 20px 0 20px;
+    border-bottom: 0;
+}
+.hot_spot_left ul .recommend_three img{
+    height: 119px;
+    width: 179px;
+    float: left;
+}
+.hot_spot_left ul .recommend_three p{
+    display: inline-block;
+    width: 335px;
+    float: right;
+    padding: 27px 3px 3px 22px;
+}
+.hot_spot_left ul .recommend_three .time{
+    display: inline-block;
+    width: 338px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 22px;
+}
+.hot_spot_left ul .recommend_three .time .pot{
+    display: inline-block;
+    color: #e53634;
+    width: 30px;
+    height: 14px;
+    border: 1px solid #e8b1b1 ;
+    border-radius: 3px;
+    position: relative;
+    top: 14px;
+    margin-left: 10px;
+}
+.hot_spot_left ul .recommend_three .time .pot span{
+    position: relative;
+    top: -15px;
+}
+
+/*热点右边*/
+.hot_spot_right{
+    width: 281px;
+    height: 406px;
+    padding-right: 23px;
+    float: right;
+}
