@@ -7,16 +7,7 @@ body{
     width: 270px;
     height: 129px;
     display: block;
-    margin:0 auto;
-}
-/*新闻导航*/
-.news{
-    text-align: center;
-    margin: 36px auto 30px;
-}
-.news a{
-    text-decoration: underline;
-    color: #2b11d6;
+    margin:30px auto;
 }
 /*搜索框*/
 .search{
@@ -28,7 +19,6 @@ body{
     width: 536px;
     height: 40px;
     float: left;
-    background-color: aqua;
     position: relative;
 }
 .search_left input{
@@ -54,34 +44,38 @@ body{
 /*热点上面*/
 .hot_spot{
     width: 893px;
-    /*height: 406px;*/
     margin: 98px auto 0;
     border: #e6e6e6 1px solid;
 }
 .hot_spot_top{
-    width: 893px;
     height: 40px;
     border-bottom: #e6e6e6 1px solid;
+    font-size: 14px;
 }
 .hot_spot_bottom{
-    width: 893px;
     height: 515px;
 }
 .hot_spot_top_nav1{
-    width: 79px;
-    height: 14px;
+    width: 126px;
+    height: 42px;
     float: left;
     position: relative;
-    top: -1px;
-    font-size: 14px;
-    line-height: 14px;
-    padding: 14px 25px 14px 22px;
-    text-align: right;
+    line-height: 42px;
+    text-align: center;
 }
-.hot_spot_top_nav1 img{
-    position: relative;
-    top: -17px;
-    left: -58px;
+.hot_spot_top_nav1 span{
+    float: right;
+    margin-right: 26px;
+}
+.hot_spot_top_nav1 i{
+    color: #cdcdcd;
+    font-size: 20px;
+    float: left;
+    margin-left: 22px;
+}
+.hot_spot_top_nav1:hover{
+    background-color: #919499;
+    color: white;
 }
 .hot_spot_top_nav2{
     width: 80px;
@@ -89,9 +83,10 @@ body{
     float: left;
     position: relative;
     top: -1px;
-    font-size: 14px;
     text-align: center;
     line-height: 42px;
+}
+.hot_spot_top_nav2:hover{
     background-color: #919499;
     color: white;
 }
@@ -101,18 +96,30 @@ body{
     float: left;
     position: relative;
     top: -1px;
-    font-size: 14px;
     text-align: center;
     line-height: 42px;
 }
+.hot_spot_top_nav3:hover{
+    background-color: #919499;
+    color: white;
+}
 .hot_spot_top_nav4{
-    /*width: 80px;*/
-    /*height: 42px;*/
     float: right;
     position: relative;
     top: -1px;
-    padding: 4px 24px 3px 24px;
+    width: 58px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
 }
+.hot_spot_top_nav4 i{
+    color: #cdcdcd;
+    font-size: 18px;
+}
+.hot_spot_top_nav4 i:hover{
+    color: #407dfd;
+}
+
 /*热点下面*/
 
 /*热点左边*/
@@ -222,16 +229,77 @@ body{
     position: relative;
     top: 14px;
     margin-left: 10px;
+    text-align: center;
 }
 .hot_spot_left ul .recommend_three .time .pot span{
     position: relative;
     top: -15px;
+    font-size: 12px;
 }
 
 /*热点右边*/
 .hot_spot_right{
     width: 281px;
-    height: 406px;
+    height: 515px;
     padding-right: 23px;
     float: right;
+}
+.hot_spot_right_top{
+    height: 33px;
+    padding-top: 16px;
+    line-height: 33px;
+    font-size: 14px;
+}
+.hot_spot_right_top h2{
+    font-weight: bold;
+    float: left;
+}
+.hot_spot_right_top .huan{
+    float: right;
+    width: 90px;
+    height: 33px;
+    line-height: 33px;
+}
+.hot_spot_right_top p{
+    float: right;
+}
+.hot_spot_right_top i{
+    font-size: 22px;
+    color: #989898;
+    float: left;
+    padding-left: 25px;
+}
+/*热点下边*/
+.hot_spot_right_bottom ul{
+    height: 272px;
+    width: 281px;
+}
+.hot_spot_right_bottom ul li{
+    height: 34px;
+    float: left;
+    line-height: 34px;
+}
+.hot_spot_right_bottom ul li a:hover{
+    color: #407dfd;
+    text-decoration: underline;
+}
+.hot_spot_right_bottom li:nth-child(2n+1){
+    width: 147px;
+}
+.hot_spot_right_bottom li:nth-child(2n){
+    width: 134px;
+}
+.hot_spot_right_bottom li:nth-child(1) span{
+    color: #e53634;
+    font-size: 12px;
+    width: 18px;
+    height: 14px;
+    border: 1px solid #e8b1b1 ;
+    border-radius: 3px;
+    position: relative;
+    top: 8px;
+    text-align: center;
+    line-height: 14px;
+    float: right;
+    margin-right: 20px;
 }
